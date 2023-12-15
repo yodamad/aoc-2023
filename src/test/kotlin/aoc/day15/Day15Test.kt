@@ -6,7 +6,7 @@ class Day15Test {
     companion object {
         @JvmStatic
         fun main(args: Array<String>) {
-            Day15Test().part1()
+            Day15Test().lens()
         }
     }
 
@@ -15,4 +15,8 @@ class Day15Test {
     fun sample() { Day15().hash("sample")}
 
     fun part1() { Day15().hash("input")}
+
+    fun lensSample() { Day15().lenses("sample") }
+
+    fun lens() { Day15().lenses("input") }
 }
